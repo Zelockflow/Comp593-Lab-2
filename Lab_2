@@ -1,0 +1,63 @@
+
+
+def main():
+
+    # TODO: Step 2 - Create a complex data structure
+    about_me = {
+        'Name': 'Michael Young',
+        'Home City': 'Belleville',
+        'Pets names': [
+            'Tequila',
+            'jack',
+            'Rosebud',
+            'joey',
+            'moonstorm',
+        ],
+        'favourite games': [
+            {
+                'System' : 'Computer',
+                'name' : 'Rimworld',
+                'Number of players' : 2,
+            },
+            {
+               'System' : 'Board',
+                'name' : 'Risk',
+                'Number of players' : 8, 
+            }
+        ]
+
+    }
+
+    # TODO: Step 3 - Add another movie to the data structure
+    new_game = {
+                'System' : 'Card',
+                'name' : 'Uno',
+                'Number of players' : 4,
+    }
+    about_me['favourite games'].insert(1, new_game)
+    print_game_name_system(about_me)
+
+# TODO: Step 4 - Function that prints student name and ID	
+def print_game_name_system(name):
+    print(f'The {name}')
+
+    
+# TODO: Step 5 - Function that adds pizza toppings to data structure
+def add_games(about_me, pet):
+    about_me
+    return
+
+# TODO: Step 6 - Function that prints bullet list of pizza toppings
+def print_pizza_toppings(about_me):
+    return
+
+# TODO: Step 7 - Function that prints comma-separated list of movie genres
+def print_movie_genres(about_me):
+    return 
+
+# TODO: Step 8 - Function that prints comma-separated list of movie titles
+def print_movie_titles(movie_list):
+    return
+    
+if __name__ == '__main__':
+    main()
